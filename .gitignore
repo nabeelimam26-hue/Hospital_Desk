@@ -1,0 +1,8 @@
+.venv/
+server/.venv/
+__pycache__/
+*.py[cod]
+server/hospital.sqlite3
+.env
+.vercel/
+staticfiles/
