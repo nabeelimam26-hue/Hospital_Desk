@@ -113,7 +113,7 @@ def serialize_report(item):
 
 
 def app_shell(request):
-    return FileResponse(open(Path(__file__).resolve().parents[2] / "index.html", "rb"), content_type="text/html; charset=utf-8")
+    return FileResponse(open(Path(__file__).resolve().parents[1] / "index.html", "rb"), content_type="text/html; charset=utf-8")
 
 
 @ensure_csrf_cookie
